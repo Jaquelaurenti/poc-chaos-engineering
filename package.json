@@ -1,0 +1,29 @@
+{
+  "name": "poc-chaos-engineering",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jaquelaurenti/poc-chaos-engineering.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jaquelaurenti/poc-chaos-engineering/issues"
+  },
+  "homepage": "https://github.com/Jaquelaurenti/poc-chaos-engineering#readme",
+  "dependencies": {
+    "delay": "^6.0.0",
+    "express": "^4.18.2",
+    "loadtest": "^5.2.0",
+    "mongodb-memory-server": "^8.13.0",
+    "mongoose": "^7.3.1",
+    "throttle": "^1.0.3",
+    "xlsx": "^0.18.5"
+  }
+}

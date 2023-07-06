@@ -1,0 +1,17 @@
+config:
+  target: "http://localhost:3000"
+  plugins:
+    - "./artillery-xls-plugin.js"
+  phases:
+    - duration: 300
+      arrivalRate: 1000
+  
+  defaults:
+    headers:
+      User-Agent: "Artillery"
+
+scenarios:
+  - name: "Load Test Scenario"
+    flow:
+      - get:
+          url: "/"
